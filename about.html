@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<!-- head page -->	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>STATED.</title>
+<!-- slick slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- CSS -->   
+    <link href="style.css" type="text/css" rel="Stylesheet" />
+<!-- JQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- font -->
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+<!-- slick slider plug-in Javascript -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- Cookie --> 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+</head>
+
+
+<body>
+	<div id="header-hero-container">
+		<header>
+			<div class="flex container">
+				<a id="logo" href="index.html">STATED.</a>
+				<nav>
+					 <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="index.html#properties">Properties</a></li>
+                        <li><a href="index.html#agents">Agents</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact us">Contact</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+				</nav>
+			</div>
+		</header>
+
+<!-- header hero container -->	
+<section id="hero">
+            <div class="fade"></div>
+            <div class="hero-text">
+                <h1>Buy and sell real estate properties</h1>
+                <p>We offer you our experience in the real estate sector for your every need</p>
+            </div>
+</section>
+</div>
+
+<!-- section tag how it works -->   
+    <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="flex">
+                <div>
+                    <span class="fas fa-home"></span>
+                    <h4>Find a Property.</h4>
+                    <p>Advertising of the property from the shop window to our website, in multiple real estate portals on the web and in social networks.</p>
+                </div>
+
+        <div>
+                    <span class="fas fa-dollar-sign"></span>
+                    <h4>Buy a Property.</h4>
+                    <p>Drafting and preliminary registration of real estate sales.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-chart-line"></span>
+                    <h4>Investing.</h4>
+                    <p>Analytical appraisals (town planning, mortgage and land registry checks, market surveys, etc.).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Introduction -->
+<section id="aboutus">
+    <div class="container">
+        <div class="col-sm-7">
+                <h2 class="text-center">Informazioni</h2>
+                <p>Questo sito web fa parte di un progetto per l'esame di <b>Programmazione Web & Mobile</b> del professor Ceravolo.
+                Questo progetto ha lo scopo di presentare  un sito di un agenzia immobiliare grazie alla combinazione tra HTML, CSS e JavaScript.</p>
+                <h2 class="text-center">Chi sono?</h2>
+                <p >Mi chiamo Paolo Lanfredi, sono uno studente di Sicurezza di Sistemi e delle Reti Informatiche all'Universita statale di Milano</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- contact -->
+<section id="contact">
+        <div class="container">
+            <h2><a name="contact us">Contact Us</a></h2>
+
+            <div class="flex">
+                <div id="form-container">
+                    <h3>Contact Form</h3>
+                    
+                    <div id="error_message">
+                        
+                    </div>
+                    <form id="form" action="" onsubmit="return validate();">
+                        <label for="name">Name</label>
+                        <input type="text" required id="name" >
+
+                        <label for="email">Email</label>
+                        <input type="text" required id="email" >
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" >
+
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder=" Write your message here.."></textarea>
+
+                        <button  type="submit" class="button rounded">Send Message</button>
+                    </form>
+                </div>
+
+                <div id="address-container">
+                    <label>Address</label>
+                    <address>
+                        20377 Evergreen Terrace Mountain View, California, USA 
+                    </address>
+
+                    <label>Phone</label>
+                    <a href="tel:232-232-2323">232-232-2323</a>
+
+                    <label>Email Address</label>
+                    <a href="mailto:email@domain.com">email@domain.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- footer -->
+<footer>
+        <div class="flex container">
+            <div class="footer-about">
+                <h5>About Stated</h5>
+                <p>Contact us for any information or come and visit us in our agency.</p>
+            </div>
+
+            <div class="footer-quick-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="#contact us">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-subscribe">
+                <h5>Subscribe to our Newsletter</h5>
+                <div id="subscribe-container">
+                    <input type="text" placeholder="Enter Email" >
+                    <button class="footer button right-rounded">Send</button>
+                </div>
+
+                <h5 class="follow-us">Follow Us</h5>
+                <ul>
+                    <li><a href="#" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#" target="_blank"><span class="fab fa-linkedin-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <small>
+            Copyright; 2020 All rights reserved. 
+        </small>
+    </footer>
+
+<!-- Cookie -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#eaf7f7",
+      "text": "#5c7291"
+    },
+    "button": {
+      "background": "#56cbdb",
+      "text": "#ffffff"
+    }
+  },
+  "showLink": false,
+  "type": "opt-out"
+});
+</script>
+
+    <script src="form.js"></script>
+    <script src="pag.js"></script>
+
+
+</body>
+</html>
